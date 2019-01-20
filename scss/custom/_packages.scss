@@ -1,0 +1,58 @@
+// Package Boxes
+.home-packages {
+    margin-top: 50px;
+}
+
+
+.p-box-1, .p-box-2, .p-box-3 {
+    text-align: center;
+
+    .fa {
+        font-size: 60px;
+    }
+
+    .features {
+        margin: 20px 0 30px 0;
+
+        li {
+            padding: 10px 0 10px 0;
+            border-bottom: #ccc solid 1px;
+        }
+    }
+}
+
+.p-box-1 {
+    .fa {
+        color: $primary;
+    }
+
+    .pricing span {
+        font-size: 35px;
+        font-weight: bold;
+        color: $primary;
+    }
+}
+
+.p-box-2 {
+    .fa {
+        color: $secondary;
+    }
+
+    .pricing span {
+        font-size: 35px;
+        font-weight: bold;
+        color: $secondary;
+    }
+}
+
+.p-box-3 {
+    .fa {
+        color: $extra;
+    }
+
+    .pricing span {
+        font-size: 35px;
+        font-weight: bold;
+        color: $extra;
+    }
+}

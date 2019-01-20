@@ -1,0 +1,52 @@
+// Top Nav
+.top-nav {
+    width: 100%;
+    background: $medium-gray;
+    padding: 15px;
+    margin: 0;
+    color: $white;
+    overflow: hidden;
+}
+
+.logo {
+    color: lighten($primary, 30%);
+    background: $dark-gray;
+    padding: 5px 9px;
+    margin-right: 4px;
+}
+
+// Top Bar
+.top-bar {
+    color: $white;
+    background: $dark-gray;
+
+    ul {
+        background: $dark-gray;
+    }
+
+    li {
+        text-transform: uppercase;
+        margin: auto 0;
+    }
+
+    a {
+        color: $white;
+    }
+
+    a:hover {
+        color: $secondary;
+    }
+
+    a.current {
+        color: $secondary;
+        border-bottom: 3px solid $secondary;
+    }
+}
+
+.remember {
+    margin-right: 4px;
+}
+
+
+
+

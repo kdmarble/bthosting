@@ -1,0 +1,32 @@
+// Section A
+.section-a {
+    margin-top: 30px;
+    padding: 50px 0;
+    background: $light-gray;
+}
+
+// Section B
+.section-b {
+    background: $dark-gray;
+    color: $white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+// Section C
+.section-c {
+    background: $primary;
+    color: $white;
+    padding: 50px 0;
+    text-align: center;
+
+    .cell {
+        margin: 15px 0;
+    }
+
+    .fa {
+        font-size: 90px;
+        margin: 15px 0;
+    }
+}
+
